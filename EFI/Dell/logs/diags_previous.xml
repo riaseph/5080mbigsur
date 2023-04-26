@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <SupportAssistPrebootDiagnosticLog>
+    <Schema>1.0.0</Schema>
+    <LogNumber>1</LogNumber>
+    <LogTimeStamp>03/07/2023 09:48:32</LogTimeStamp>
+    <ePSA_Data>
+      <Result>Information</Result>
+      <ReturnCode>BOOT_HOST_OS</ReturnCode>
+      <ePSAFullVersion>ED.1.1.1</ePSAFullVersion>
+      <ePSAInvocationCount>7</ePSAInvocationCount>
+    </ePSA_Data>
+    <BIOS_Data>
+      <ErrorCategory>POWER_SUPPLY</ErrorCategory>
+      <ErrorMessage><![CDATA[Alert! You have attached an undersized 65W power adapter to your system,
+which is less than the recommended 90W power adapter. The system will adjust
+the performance to match the power available. Use a Dell 90W (or greater) power
+adapter for peak system performance.
+]]></ErrorMessage>
+      <Flags>DISABLE_IN_SETUP</Flags>
+      <SOS_Available>FALSE</SOS_Available>
+      <TimeOutSeconds>0</TimeOutSeconds>
+    </BIOS_Data>
+  </SupportAssistPrebootDiagnosticLog>
